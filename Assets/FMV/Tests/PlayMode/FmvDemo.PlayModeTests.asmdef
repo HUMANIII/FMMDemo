@@ -1,0 +1,5 @@
+{
+  "name": "FmvDemo.PlayModeTests",
+  "references": ["FmvDemo.Runtime", "Unity.Addressables", "Unity.ResourceManager", "UniTask", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

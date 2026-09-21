@@ -1,0 +1,206 @@
+[
+  {
+    "name": "editmode",
+    "result": "Passed",
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "duration": 2.479049,
+    "endUtc": "2026-09-21 13:41:10Z",
+    "cases": [
+      {
+        "name": "ContentChanges_InvalidateExistingBuildFingerprint",
+        "result": "Passed",
+        "duration": 0.352443
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"duplicate\")",
+        "result": "Passed",
+        "duration": 0.035859
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"missingVideo\")",
+        "result": "Passed",
+        "duration": 0.120677
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"badChoice\")",
+        "result": "Passed",
+        "duration": 0.026448
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"badNext\")",
+        "result": "Passed",
+        "duration": 0.025376
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"bothExits\")",
+        "result": "Passed",
+        "duration": 0.029011
+      },
+      {
+        "name": "InvalidDefinitions_AreRejected(\"badStart\")",
+        "result": "Passed",
+        "duration": 0.030062
+      },
+      {
+        "name": "MissingVideoFile_BlocksBuildBeforeRegisteringInvalidContent",
+        "result": "Passed",
+        "duration": 0.168492
+      },
+      {
+        "name": "ReplacingVideoBytesWithSameGuid_InvalidatesExistingBuildFingerprint",
+        "result": "Passed",
+        "duration": 0.889405
+      },
+      {
+        "name": "ShippedSequence_HasBothCompleteLoops",
+        "result": "Passed",
+        "duration": 0.030133
+      },
+      {
+        "name": "Synchronize_RegistersSharesMovesAndRemovesWithoutRepeatedChanges",
+        "result": "Passed",
+        "duration": 0.731093
+      }
+    ]
+  },
+  {
+    "name": "playmode-fast",
+    "result": "Passed",
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "duration": 237.1390727,
+    "endUtc": "2026-09-21 13:45:52Z",
+    "cases": [
+      {
+        "name": "BothBranches_TenLoopsThroughUi_RealFramesAndNoGrowingHandles",
+        "result": "Passed",
+        "duration": 195.657311
+      },
+      {
+        "name": "ChoiceWait_HoldsFrameWithoutAutoSelecting",
+        "result": "Passed",
+        "duration": 4.799683
+      },
+      {
+        "name": "ConcurrentLoads_OneHandle_RemainsUntilFinalLease",
+        "result": "Passed",
+        "duration": 3.608963
+      },
+      {
+        "name": "DecoderError_UsesProductionErrorHandler",
+        "result": "Passed",
+        "duration": 0.623067
+      },
+      {
+        "name": "LabelLoads_ReleaseIndependently",
+        "result": "Passed",
+        "duration": 4.393129
+      },
+      {
+        "name": "LoadingTimeoutAndCancellation_AreObservable",
+        "result": "Passed",
+        "duration": 0.454276
+      },
+      {
+        "name": "MissingVideo_ShowsErrorAndRestartRecovers",
+        "result": "Passed",
+        "duration": 6.914447
+      },
+      {
+        "name": "PreparationTimeout_ShowsErrorAndRetryRecovers",
+        "result": "Passed",
+        "duration": 6.992561
+      },
+      {
+        "name": "RestartDuringLoading_CancelsOldWorkAndReturnsToStart",
+        "result": "Passed",
+        "duration": 6.872083
+      },
+      {
+        "name": "TerminalNode_ReleasesAllHandlesAndKeepsDisplayedFrame",
+        "result": "Passed",
+        "duration": 6.789095
+      }
+    ]
+  },
+  {
+    "name": "playmode-packed",
+    "result": "Passed",
+    "total": 10,
+    "passed": 10,
+    "failed": 0,
+    "duration": 229.4622394,
+    "endUtc": "2026-09-21 13:50:51Z",
+    "cases": [
+      {
+        "name": "BothBranches_TenLoopsThroughUi_RealFramesAndNoGrowingHandles",
+        "result": "Passed",
+        "duration": 189.973176
+      },
+      {
+        "name": "ChoiceWait_HoldsFrameWithoutAutoSelecting",
+        "result": "Passed",
+        "duration": 4.73122
+      },
+      {
+        "name": "ConcurrentLoads_OneHandle_RemainsUntilFinalLease",
+        "result": "Passed",
+        "duration": 3.545952
+      },
+      {
+        "name": "DecoderError_UsesProductionErrorHandler",
+        "result": "Passed",
+        "duration": 0.52778
+      },
+      {
+        "name": "LabelLoads_ReleaseIndependently",
+        "result": "Passed",
+        "duration": 3.665957
+      },
+      {
+        "name": "LoadingTimeoutAndCancellation_AreObservable",
+        "result": "Passed",
+        "duration": 0.43412
+      },
+      {
+        "name": "MissingVideo_ShowsErrorAndRestartRecovers",
+        "result": "Passed",
+        "duration": 6.637757
+      },
+      {
+        "name": "PreparationTimeout_ShowsErrorAndRetryRecovers",
+        "result": "Passed",
+        "duration": 6.678389
+      },
+      {
+        "name": "RestartDuringLoading_CancelsOldWorkAndReturnsToStart",
+        "result": "Passed",
+        "duration": 6.6328
+      },
+      {
+        "name": "TerminalNode_ReleasesAllHandlesAndKeepsDisplayedFrame",
+        "result": "Passed",
+        "duration": 6.599444
+      }
+    ]
+  },
+  {
+    "name": "remote-playmode",
+    "result": "Passed",
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "duration": 7.5813195,
+    "endUtc": "2026-09-21 14:06:28Z",
+    "cases": [
+      {
+        "name": "OldLocalCatalog_UpdatesToRemoteV2_DownloadsPlaysAndClearsCache",
+        "result": "Passed",
+        "duration": 7.543903
+      }
+    ]
+  }
+]

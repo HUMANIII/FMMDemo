@@ -1,0 +1,7 @@
+{
+  "name": "FmvDemo.RemoteTests",
+  "references": ["FmvDemo.Runtime", "Unity.Addressables", "Unity.ResourceManager", "UniTask"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "autoReferenced": false
+}

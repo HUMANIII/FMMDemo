@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71646657027095941bb85856f413da59, type: 3}
+  m_Name: BedroomLoop
+  m_EditorClassIdentifier: FmvDemo.Runtime::FmvDemo.FmvSequenceDefinition
+  startNodeId: wake
+  nodes:
+  - id: wake
+    title: "\uCE68\uB300\uC5D0\uC11C \uC77C\uC5B4\uB098\uAE30"
+    video:
+      m_AssetGUID: 7f174541e1afed34c8f09976a1823237
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeId: 
+    choices:
+    - text: "\uCEF4\uD4E8\uD130\uB85C \uAC04\uB2E4"
+      targetNodeId: walk
+    - text: "\uB2E4\uC2DC \uB215\uB294\uB2E4"
+      targetNodeId: sleep
+  - id: walk
+    title: "\uCEF4\uD4E8\uD130\uB85C \uAC00\uAE30"
+    video:
+      m_AssetGUID: 965771aadf237254cb47ac4ba46847ad
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeId: computer
+    choices: []
+  - id: computer
+    title: "\uCEF4\uD4E8\uD130 \uC0AC\uC6A9\uD558\uAE30"
+    video:
+      m_AssetGUID: 0940297da9a93714f923709c904ffa08
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeId: return
+    choices: []
+  - id: return
+    title: "\uCE68\uB300\uB85C \uB3CC\uC544\uC624\uAE30"
+    video:
+      m_AssetGUID: f02f83ba88868ae4aba9f25adf972697
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeId: wake
+    choices: []
+  - id: sleep
+    title: "\uB2E4\uC2DC \uB215\uAE30"
+    video:
+      m_AssetGUID: 67450cacc1c99944b8c5ee7eb8cc82f2
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    nextNodeId: wake
+    choices: []

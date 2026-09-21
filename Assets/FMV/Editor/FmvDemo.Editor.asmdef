@@ -1,0 +1,6 @@
+{
+  "name": "FmvDemo.Editor",
+  "rootNamespace": "FmvDemo.Editor",
+  "references": ["FmvDemo.Runtime", "Unity.Addressables", "Unity.Addressables.Editor", "Unity.ResourceManager", "UniTask", "Unity.TextMeshPro", "Unity.ugui", "Unity.InputSystem"],
+  "includePlatforms": ["Editor"]
+}

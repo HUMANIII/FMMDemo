@@ -1,0 +1,6 @@
+{
+  "name": "FmvDemo.EditModeTests",
+  "references": ["FmvDemo.Runtime", "FmvDemo.Editor", "Unity.Addressables", "Unity.Addressables.Editor", "Unity.ResourceManager", "UniTask"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

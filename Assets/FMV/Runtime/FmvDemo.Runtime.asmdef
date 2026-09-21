@@ -1,0 +1,6 @@
+{
+  "name": "FmvDemo.Runtime",
+  "rootNamespace": "FmvDemo",
+  "references": ["Unity.Addressables", "Unity.ResourceManager", "UniTask", "Unity.TextMeshPro", "Unity.ugui", "Unity.InputSystem"],
+  "autoReferenced": true
+}
