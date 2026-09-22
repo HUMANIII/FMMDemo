@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "duration": 72.01,
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.DeadlineClickAndExpiry_CommitOnlyOneResult",
+      "Status": "Passed",
+      "Duration": 7.5083537,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.DisabledTimer_WaitsIndefinitely_AndManyChoicesScroll",
+      "Status": "Passed",
+      "Duration": 7.5570838,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ErrorAndRetry_ClearThenRestartTimer",
+      "Status": "Passed",
+      "Duration": 10.1186912,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ExistingChoice_StillFollowsSameItemAfterReorder",
+      "Status": "Passed",
+      "Duration": 7.2211587,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.RestartAndStop_CancelTimer_NoLateBranch",
+      "Status": "Passed",
+      "Duration": 8.0870969,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ReturningToSameNode_ResetsFullDuration",
+      "Status": "Passed",
+      "Duration": 13.585916,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.SeparateBranch_ExpiresOnceAfterVideo_UsesUnscaledTime",
+      "Status": "Passed",
+      "Duration": 10.4417908,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ThirdButton_ManualClickCancelsTimeoutAndRejectsDuplicate",
+      "Status": "Passed",
+      "Duration": 7.3996224,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

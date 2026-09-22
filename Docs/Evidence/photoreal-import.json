@@ -1,0 +1,56 @@
+{
+  "clips": [
+    {
+      "name": "wake",
+      "guid": "7f174541e1afed34c8f09976a1823237",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 30.0,
+      "frameCount": 300,
+      "length": 10.0,
+      "audioTrackCount": 0
+    },
+    {
+      "name": "walk",
+      "guid": "965771aadf237254cb47ac4ba46847ad",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 30.0,
+      "frameCount": 300,
+      "length": 10.0,
+      "audioTrackCount": 0
+    },
+    {
+      "name": "computer",
+      "guid": "0940297da9a93714f923709c904ffa08",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 30.0,
+      "frameCount": 300,
+      "length": 10.0,
+      "audioTrackCount": 0
+    },
+    {
+      "name": "return",
+      "guid": "f02f83ba88868ae4aba9f25adf972697",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 30.0,
+      "frameCount": 300,
+      "length": 10.0,
+      "audioTrackCount": 0
+    },
+    {
+      "name": "sleep",
+      "guid": "67450cacc1c99944b8c5ee7eb8cc82f2",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 30.0,
+      "frameCount": 135,
+      "length": 4.5,
+      "audioTrackCount": 0
+    }
+  ],
+  "validation": [],
+  "runtimePlaybackTest": "NOT_RUN - another task is using the same Editor"
+}

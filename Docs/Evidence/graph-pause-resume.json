@@ -1,0 +1,17 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "verification": {
+      "resumeVerified": true,
+      "remainingAtResume": 7.98517561,
+      "secondsUntilSleepDecoded": 8.285072,
+      "node": "sleep",
+      "frame": 2,
+      "timerActive": false,
+      "remaining": 0
+    },
+    "handlesAfterStop": 0
+  }
+}

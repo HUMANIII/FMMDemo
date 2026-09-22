@@ -1,0 +1,15 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "scene": "Assets/FMV/Scenes/FmvDemo.unity",
+    "profile": "Local",
+    "mode": "FmvFastMode",
+    "choices": 2,
+    "timeout": 10,
+    "timeoutTarget": "sleep",
+    "fingerprint": "04bb11ba4c614af75420fb6bf3459686",
+    "openAssetOpensGraph": true
+  }
+}

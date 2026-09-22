@@ -1,57 +1,67 @@
 [
   {
     "file": "Assets/FMV/Content/Videos/computer.mp4",
-    "frames": 90,
-    "seconds": 3,
+    "frames": 300,
+    "seconds": 10.0,
     "width": 1280,
     "height": 720,
     "fps": 30,
     "audio": false,
-    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 2020 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
-    "sha256": "7b537b943a163e1e29627cfff8ca48b3b35e68adcede092f489f1312c05b9489"
+    "fixedImage": false,
+    "minSsimToFirstFrame": 0.947138,
+    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1334 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "sha256": "52dc9c989881d4284d4f0f16fe9714e24dfce42ad5e0ca8c9ea5cf7c7f54fe1b"
   },
   {
     "file": "Assets/FMV/Content/Videos/return.mp4",
-    "frames": 90,
-    "seconds": 3,
+    "frames": 300,
+    "seconds": 10.0,
     "width": 1280,
     "height": 720,
     "fps": 30,
     "audio": false,
-    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 1974 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
-    "sha256": "f5e14461ba24f32d7ca3ddd30ec9dd1c4f0d3c3360843c955bea6426ef950a4a"
+    "fixedImage": false,
+    "minSsimToFirstFrame": 0.873488,
+    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1759 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "sha256": "e8eee41ed4934050981079cfcf90bc4d4d8620a91dbe7d38f2d1c4b1fec3031a"
   },
   {
     "file": "Assets/FMV/Content/Videos/sleep.mp4",
-    "frames": 90,
-    "seconds": 3,
+    "frames": 135,
+    "seconds": 4.5,
     "width": 1280,
     "height": 720,
     "fps": 30,
     "audio": false,
-    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 2180 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
-    "sha256": "273a05eaf9b8f15ecbf9c0fd443b88b1774eb4f276f24b43a1b26eeaa62c7979"
+    "fixedImage": false,
+    "minSsimToFirstFrame": 0.870658,
+    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1621 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "sha256": "f29c9c25f959af848eb39aa2f70e97be76e13f2d1a9c994f4c311f9630e2aca7"
   },
   {
     "file": "Assets/FMV/Content/Videos/wake.mp4",
-    "frames": 90,
-    "seconds": 3,
+    "frames": 300,
+    "seconds": 10.0,
     "width": 1280,
     "height": 720,
     "fps": 30,
     "audio": false,
-    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 2248 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
-    "sha256": "8223d0c24d657c5902f94b8e041ceb850f211d6bce3290f7d41c6cfacdf240fb"
+    "fixedImage": false,
+    "minSsimToFirstFrame": 0.929787,
+    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 1522 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "sha256": "decf6a43ba7374faa5e0d50a28be55b57dfbc5458bfa0feaf1345ee96aa83f2f"
   },
   {
     "file": "Assets/FMV/Content/Videos/walk.mp4",
-    "frames": 90,
-    "seconds": 3,
+    "frames": 300,
+    "seconds": 10.0,
     "width": 1280,
     "height": 720,
     "fps": 30,
     "audio": false,
-    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720, 1789 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
-    "sha256": "97486cb723437fc84e15913af0df797267e1cb2d4b674b90c620b1b02ef910d5"
+    "fixedImage": false,
+    "minSsimToFirstFrame": 0.87189,
+    "codec": "Stream #0:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 2292 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+    "sha256": "4285c7ac9fac5fa89187975c58d50730aeb7843a08eec1bbdf6b429453c427f8"
   }
 ]

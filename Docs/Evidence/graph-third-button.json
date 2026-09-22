@@ -1,0 +1,14 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "input": "real mouse click",
+    "buttonIndex": 2,
+    "target": "computer",
+    "decoded": true,
+    "frame": 2,
+    "timerCleared": true,
+    "handlesAfterStop": 0
+  }
+}

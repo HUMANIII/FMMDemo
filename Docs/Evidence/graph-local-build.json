@@ -1,0 +1,32 @@
+{
+    "fingerprint": "04bb11ba4c614af75420fb6bf3459686",
+    "profile": "Local",
+    "buildTarget": "StandaloneWindows64",
+    "builtUtc": "2026-09-22T00:10:27.0976140Z",
+    "files": [
+        "E:\\02.Unity\\FMVDemo\\Assets\\AddressableAssetsData\\Windows\\addressables_content_state.bin",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\2d6996407b370821a3f3db2f43bc7c20_monoscripts_070ef575d7bf23546717cbe5408cfc3b.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvsequences_assets_all_8820bcc1721f442816d53ca0d262e1b0.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvvideos_assets_fmv_video_0940297da9a93714f923709c904ffa08_91aa3510a7f5bc3538fd900f51990818.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvvideos_assets_fmv_video_67450cacc1c99944b8c5ee7eb8cc82f2_a37b32cec20fd381ebf42e98f3d89514.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvvideos_assets_fmv_video_7f174541e1afed34c8f09976a1823237_f93e08675350a529e27f260e70d51b88.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvvideos_assets_fmv_video_965771aadf237254cb47ac4ba46847ad_d8db4dd7c995e015663289047bb9c914.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\StandaloneWindows64\\fmvvideos_assets_fmv_video_f02f83ba88868ae4aba9f25adf972697_4cba3c7b82577af7c96ababd13bbd0b2.bundle",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\catalog.bin",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\catalog.hash",
+        "E:\\02.Unity\\FMVDemo\\Library\\com.unity.addressables\\aa\\Windows\\settings.json"
+    ],
+    "hashes": [
+        "900829F99F6133C01798598A3CEB9889E3411EC282CCD751CB329E91245E2D08",
+        "22DE1585FB1C484F1B8E947D642BB656C350362A5AEAFD233550B7F2D7D81720",
+        "6765AAF15CD551E57439EC890AD5B3BB586B1BD93E06440C0D3BD6F3B691ADCA",
+        "0C7DFB933E319463D5AF683BF2DC446321F493EED12E39B8F5E5AB709D57DF5B",
+        "65598C96E00818386CDB9BA404DCE0357F7C3D5DCB22BA03AA00A2DDBB128BDA",
+        "5453306E90D45F36832B344BBBDE23FB3660555B07F8325E3F38F6FE036226C9",
+        "99B213B3A97CBB477BC0C5962D03EBDE02B41ADCC6B3AED3E97C75A9F1396E6D",
+        "16820EDC454CC72B3768DFF0427C58F47B13E0C9490298CCA3F9B7C5FDCBC2B2",
+        "2F9574978ECBA6369E6FD116D2B05C02F425E6D0037F6FB9EC4B19585BEE0790",
+        "F70A9FB3333227F42F7FEDBF6B72262CCB77A787F774450C3033A2DE7BB288F4",
+        "775C4BAE16A37B8F4E0109C009278255E59532B0EEED3113E01A2C2547DCFCA3"
+    ]
+}

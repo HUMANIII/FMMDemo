@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-22",
+  "editor": "6000.3.23f1",
+  "project": "FMVDemo",
+  "method": "Computer Use mouse input in live Unity, followed by read-only Unity CLI state inspection; Undo used to restore demo",
+  "videoClick": {
+    "graphSequence": "BedroomLoop",
+    "selectedGraphNodeBefore": "wake",
+    "clickedVideoName": "walk",
+    "inspectorAsset": "Assets/FMV/Content/Videos/walk.mp4",
+    "rightPanelNodeAfter": "wake",
+    "graphViewPreserved": true,
+    "screenshot": "graph-inspector.jpg"
+  },
+  "nodeDrag": {
+    "node": "wake",
+    "before": [40, 60],
+    "after": [108, 20],
+    "saved": true,
+    "fingerprintBeforeAndAfter": "04bb11ba4c614af75420fb6bf3459686"
+  },
+  "connectionDrag": {
+    "output": "wake.timeout",
+    "before": "sleep",
+    "after": "computer",
+    "fingerprintAfter": "9108ead4f19b83f490718fc038907d9a",
+    "singleUndoRestored": "sleep",
+    "fingerprintRestored": "04bb11ba4c614af75420fb6bf3459686",
+    "screenshot": "graph-connect.jpg",
+    "initialIssue": "GraphView removed the occupied edge and added its replacement in separate callbacks, causing two undo steps. Keeping both in the current input undo group fixed this; the real drag and single Undo were repeated successfully."
+  },
+  "domainReload": {
+    "sequenceRestored": "BedroomLoop",
+    "nodeRestored": "wake",
+    "graphPanAndZoomVisuallyPreserved": true
+  },
+  "demoRestored": true
+}

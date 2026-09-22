@@ -1,0 +1,188 @@
+{
+  "status": "completed",
+  "duration": 3.43,
+  "summary": {
+    "total": 25,
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.ContentChanges_InvalidateExistingBuildFingerprint",
+      "Status": "Passed",
+      "Duration": 0.175388,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"duplicate\")",
+      "Status": "Passed",
+      "Duration": 0.036433,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"missingVideo\")",
+      "Status": "Passed",
+      "Duration": 0.0508315,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"badChoice\")",
+      "Status": "Passed",
+      "Duration": 0.0295943,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"badNext\")",
+      "Status": "Passed",
+      "Duration": 0.0270746,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"bothExits\")",
+      "Status": "Passed",
+      "Duration": 0.0275687,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.InvalidDefinitions_AreRejected(\"badStart\")",
+      "Status": "Passed",
+      "Duration": 0.0305317,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.MissingVideoFile_BlocksBuildBeforeRegisteringInvalidContent",
+      "Status": "Passed",
+      "Duration": 0.1678529,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.ReplacingVideoBytesWithSameGuid_InvalidatesExistingBuildFingerprint",
+      "Status": "Passed",
+      "Duration": 0.6426635,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.ShippedSequence_HasBothCompleteLoops",
+      "Status": "Passed",
+      "Duration": 0.0274151,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvContentTests.Synchronize_RegistersSharesMovesAndRemovesWithoutRepeatedChanges",
+      "Status": "Passed",
+      "Duration": 0.8155827,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.AddingNode_HasUniqueIdAndNoTimer",
+      "Status": "Passed",
+      "Duration": 0.0043677,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.CyclesAndSelfConnections_AreValid_UnreachableIsWarning",
+      "Status": "Passed",
+      "Duration": 0.0017641,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.Delete_ClearsAllIncomingAndStart_PreservesText_UndoRestores",
+      "Status": "Passed",
+      "Duration": 0.022966,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.GraphWindow_ReopensSavedLayout_SelectionDoesNotEditContent",
+      "Status": "Passed",
+      "Duration": 0.6899414,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.InvalidDuration_IsRejected(0.0f)",
+      "Status": "Passed",
+      "Duration": 0.0013995,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.InvalidDuration_IsRejected(-1.0f)",
+      "Status": "Passed",
+      "Duration": 0.0004019,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.InvalidDuration_IsRejected(float.NaN)",
+      "Status": "Passed",
+      "Duration": 0.0003705,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.InvalidDuration_IsRejected(float.PositiveInfinity)",
+      "Status": "Passed",
+      "Duration": 0.0003869,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.Layout_DoesNotChangeContentFingerprint_ButTimeoutDoes",
+      "Status": "Passed",
+      "Duration": 0.1413132,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.ModeChange_UndoRestoresAllConnectionsAndTimer",
+      "Status": "Passed",
+      "Duration": 0.0123212,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.MovedAndDeletedVideo_SelectionResolvesGuidWithoutEditingSequence",
+      "Status": "Passed",
+      "Duration": 0.3616052,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.Reorder_KeepsAutomaticChoice_DeletingItDoesNotSelectAnother",
+      "Status": "Passed",
+      "Duration": 0.0032786,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.SelectingVideo_UsesReferenceWithoutChangingSequence",
+      "Status": "Passed",
+      "Duration": 0.001934,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvGraphTests.TimerValidation_RejectsNoChoicesMissingOrDuplicateDefaultsAndBadTarget",
+      "Status": "Passed",
+      "Duration": 0.0011352,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

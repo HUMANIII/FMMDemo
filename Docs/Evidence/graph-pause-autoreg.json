@@ -1,0 +1,19 @@
+{
+  "output": null,
+  "diagnostics": [],
+  "success": true,
+  "result": {
+    "paused": true,
+    "before": 7.98517561,
+    "after": 7.98517561,
+    "pausedWallSeconds": 59.812342799999996,
+    "state": "AwaitingChoice",
+    "node": "wake",
+    "frame": 89,
+    "registeredByPlay": true,
+    "address": "fmv/video/8ac42096243034d439a2c650a871f3ff",
+    "graphReadOnly": true,
+    "selectedVideoInPlay": "Assets/FMV/Content/Videos/walk.mp4",
+    "preservedGraphNode": "wake"
+  }
+}

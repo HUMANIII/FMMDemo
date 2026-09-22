@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-22",
+  "mode": "Unity Editor / Asset Database",
+  "computerBranchLoops": 1,
+  "sleepBranchLoops": 1,
+  "selection": "FmvPlayer.Choose API",
+  "completedNodes": [
+    "wake",
+    "walk",
+    "computer",
+    "return",
+    "wake",
+    "sleep",
+    "wake"
+  ],
+  "nodesWithDecodedFrame30": [
+    "computer",
+    "return",
+    "sleep",
+    "wake",
+    "walk"
+  ],
+  "finalState": {
+    "stateBeforeStop": "AwaitingChoice",
+    "frame": 89,
+    "handlesBeforeStop": 2,
+    "handlesAfterStop": 0
+  },
+  "editorStopped": true,
+  "fullTestSuiteRerun": false,
+  "existingBundlesRebuilt": false
+}

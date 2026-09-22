@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "duration": 300.13,
+  "summary": {
+    "total": 18,
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.DeadlineClickAndExpiry_CommitOnlyOneResult",
+      "Status": "Passed",
+      "Duration": 7.3835577,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.DisabledTimer_WaitsIndefinitely_AndManyChoicesScroll",
+      "Status": "Passed",
+      "Duration": 7.385649,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ErrorAndRetry_ClearThenRestartTimer",
+      "Status": "Passed",
+      "Duration": 9.820934,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ExistingChoice_StillFollowsSameItemAfterReorder",
+      "Status": "Passed",
+      "Duration": 7.0366219,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.RestartAndStop_CancelTimer_NoLateBranch",
+      "Status": "Passed",
+      "Duration": 7.9712734,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ReturningToSameNode_ResetsFullDuration",
+      "Status": "Passed",
+      "Duration": 13.3038385,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.SeparateBranch_ExpiresOnceAfterVideo_UsesUnscaledTime",
+      "Status": "Passed",
+      "Duration": 10.1389862,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvChoiceTimeoutTests.ThirdButton_ManualClickCancelsTimeoutAndRejectsDuplicate",
+      "Status": "Passed",
+      "Duration": 7.19556,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.BothBranches_TenLoopsThroughUi_RealFramesAndNoGrowingHandles",
+      "Status": "Passed",
+      "Duration": 190.151874,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.ChoiceWait_HoldsFrameWithoutAutoSelecting",
+      "Status": "Passed",
+      "Duration": 4.7390126,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.ConcurrentLoads_OneHandle_RemainsUntilFinalLease",
+      "Status": "Passed",
+      "Duration": 3.4784295,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.DecoderError_UsesProductionErrorHandler",
+      "Status": "Passed",
+      "Duration": 0.5266018,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.LabelLoads_ReleaseIndependently",
+      "Status": "Passed",
+      "Duration": 3.6902848,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.LoadingTimeoutAndCancellation_AreObservable",
+      "Status": "Passed",
+      "Duration": 0.4383735,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.MissingVideo_ShowsErrorAndRestartRecovers",
+      "Status": "Passed",
+      "Duration": 6.6991552,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.PreparationTimeout_ShowsErrorAndRetryRecovers",
+      "Status": "Passed",
+      "Duration": 6.6981693,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.RestartDuringLoading_CancelsOldWorkAndReturnsToStart",
+      "Status": "Passed",
+      "Duration": 6.7011359,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "FmvDemo.Tests.FmvPlaybackTests.TerminalNode_ReleasesAllHandlesAndKeepsDisplayedFrame",
+      "Status": "Passed",
+      "Duration": 6.6742345,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}
