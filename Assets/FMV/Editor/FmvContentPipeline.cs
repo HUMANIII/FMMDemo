@@ -144,6 +144,7 @@ namespace FmvDemo.Editor
 
         public static void Synchronize()
         {
+            FmvSequenceEditor.SaveOpenEditors();
             EnsureSettings();
             var errors = ValidateContent();
             if (errors.Count > 0) throw new InvalidOperationException(string.Join("\n", errors));

@@ -30,6 +30,10 @@ namespace FmvDemo
         private CancellationTokenSource session;
         private CancellationTokenSource nodeOperation;
         private string videoError;
+        private bool choiceResolved;
+        private bool skipTimerTick;
+        public float ChoiceTimeRemaining { get; private set; }
+        public bool IsChoiceTimed => State == FmvPlaybackState.AwaitingChoice && !choiceResolved && CurrentNode.timeoutMode != FmvTimeoutMode.Disabled;
 
         private void Awake()
         {
@@ -47,6 +51,25 @@ namespace FmvDemo
             decodeTexture = NewTexture("FMV Decode");
             DisplayTexture = NewTexture("FMV Display");
             Video.targetTexture = decodeTexture;
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.pauseStateChanged += OnEditorPause;
+#endif
+        }
+
+#if UNITY_EDITOR
+        private void OnEditorPause(UnityEditor.PauseState state) => skipTimerTick = true;
+#endif
+
+        private void Update()
+        {
+            if (skipTimerTick) { skipTimerTick = false; return; }
+            if (!IsChoiceTimed) return;
+            ChoiceTimeRemaining = Mathf.Max(0, ChoiceTimeRemaining - Time.unscaledDeltaTime);
+            if (ChoiceTimeRemaining > 0) return;
+            string target = CurrentNode.timeoutTargetNodeId;
+            if (CurrentNode.timeoutMode == FmvTimeoutMode.Choice)
+                target = CurrentNode.choices.Find(c => c.isTimeoutDefault)?.targetNodeId;
+            ResolveChoice(target);
         }
 
         private static RenderTexture NewTexture(string textureName)
@@ -74,6 +97,9 @@ namespace FmvDemo
         }
         private void OnDestroy()
         {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.pauseStateChanged -= OnEditorPause;
+#endif
             Video.targetTexture = null;
             decodeTexture.Release(); DisplayTexture.Release();
             Destroy(decodeTexture); Destroy(DisplayTexture);
@@ -128,7 +154,15 @@ namespace FmvDemo
         public bool Choose(int index)
         {
             if (State != FmvPlaybackState.AwaitingChoice || CurrentNode?.choices == null || index < 0 || index >= CurrentNode.choices.Count) return false;
-            BeginNode(CurrentNode.choices[index].targetNodeId);
+            return ResolveChoice(CurrentNode.choices[index].targetNodeId);
+        }
+
+        private bool ResolveChoice(string target)
+        {
+            if (State != FmvPlaybackState.AwaitingChoice || choiceResolved) return false;
+            choiceResolved = true;
+            ChoiceTimeRemaining = 0;
+            BeginNode(target);
             return true;
         }
 
@@ -198,6 +232,9 @@ namespace FmvDemo
             bool choices = completed.choices is { Count: > 0 };
             bool automatic = !choices && !string.IsNullOrEmpty(completed.nextNodeId);
             var token = session.Token;
+            choiceResolved = false;
+            ChoiceTimeRemaining = choices && completed.timeoutMode != FmvTimeoutMode.Disabled ? completed.choiceTimeoutSeconds : 0;
+            skipTimerTick = true;
             if (!choices && !automatic) ReleaseSession();
             SetState(choices ? FmvPlaybackState.AwaitingChoice : FmvPlaybackState.Completed);
             NodeCompleted?.Invoke(completed.id);
@@ -229,6 +266,8 @@ namespace FmvDemo
         }
         private void CancelNode()
         {
+            ChoiceTimeRemaining = 0;
+            choiceResolved = true;
             nodeOperation?.Cancel(); nodeOperation?.Dispose(); nodeOperation = null;
             if (Video != null) { Video.Stop(); Video.clip = null; }
             if (audioOutput != null) audioOutput.Stop();

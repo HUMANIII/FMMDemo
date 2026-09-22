@@ -81,6 +81,9 @@ namespace FmvDemo.Editor
                 sequence.nodes[0].choices = new List<FmvChoice> {
                     new() { text = "컴퓨터로 간다", targetNodeId = "walk" }, new() { text = "다시 눕는다", targetNodeId = "sleep" }
                 };
+                sequence.nodes[0].timeoutMode = FmvTimeoutMode.Branch;
+                sequence.nodes[0].choiceTimeoutSeconds = 10;
+                sequence.nodes[0].timeoutTargetNodeId = "sleep";
                 AssetDatabase.CreateAsset(sequence, SequencePath);
             }
             var settings = AssetDatabase.LoadAssetAtPath<FmvRuntimeSettings>(FmvContentPipeline.RuntimeSettingsPath);
@@ -178,6 +181,7 @@ namespace FmvDemo.Editor
             view.progressFill.type = UnityEngine.UI.Image.Type.Filled; view.progressFill.fillMethod = UnityEngine.UI.Image.FillMethod.Horizontal;
             var system = new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
             system.GetComponent<InputSystemUIInputModule>().AssignDefaultActions();
+            FmvGraphDemoSetup.UpgradeView(view);
             EditorSceneManager.SaveScene(scene, ScenePath);
         }
 
